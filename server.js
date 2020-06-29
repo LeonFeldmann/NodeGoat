@@ -35,6 +35,11 @@ MongoClient.connect(db, (err, db) => {
     }
     console.log(`Connected to the database: ${db}`);
 
+    if("test" === 1) {
+        console.log("Test");
+    }
+
+
     /*
     // Fix for A5 - Security MisConfig
     // TODO: Review the rest of helmet options, like "xssFilter"
