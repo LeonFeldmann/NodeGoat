@@ -40,6 +40,12 @@ MongoClient.connect(db, (err, db) => {
     }
 
 
+    var something = "";
+
+    if (false) {
+        something = "nothing";
+    }
+
     /*
     // Fix for A5 - Security MisConfig
     // TODO: Review the rest of helmet options, like "xssFilter"
